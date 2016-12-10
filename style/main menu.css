@@ -36,6 +36,13 @@
 	float:left;
 	text-align:center;
 }
+
+#bmenu div .notsel{display:inline;}
+#bmenu div .sel{display:none;}
+#bmenu div:hover .sel{display:inline;}
+#bmenu div:hover .notsel{display:none;}
+#bmenu div:hover h3{color:#33cc99;}
+#bmenu div:hover {cursor:pointer}
 #bmenu a{
 	text-decoration:none;
 	color:#555252;

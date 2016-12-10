@@ -4,12 +4,28 @@ footer{
 	background-color:#4a4e52;
 	margin:25px 0 0 0;
 	text-align:center;
-	display:table;
 	}
+footer div{	
+	display:table;
+	width:80%;
+	height:100%;
+	position:relative;
+	margin:0 auto;}
+	
 footer h3{
 	color:white;
 	font-family: lato-regular; 
-	font-size:13px;
-	display:table-cell;
-	vertical-align:middle;
+	font-size:13px;	
+	line-height:20px;
+}
+footer div h3:first-child{
+	float:left;
+	text-align:left;
+	margin-top:35px;
+}
+footer div h3:last-child{
+	margin-top:45px;
+
+	float:right;
+	text-align:right;
 }
