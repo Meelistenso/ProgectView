@@ -11,6 +11,8 @@
 #sMain .mask{background-image: linear-gradient(to bottom, rgba(56,148,116,0.7) 0%,rgba(56,148,116,1) 100%);}
 #sRozklad{background-image: url(../img/search/rozklad.jpg); background-position:center;}
 #sRozklad .mask{background-color: rgba(60,30,0,0.7);}
+#sRozkladsel{background-image: url(../img/search/rozkladsel.jpg); background-position:center;}
+#sRozkladsel .mask{background-color: rgba(0,0,0,0.7);}
 
 .search .mask{	
 	position:relative;

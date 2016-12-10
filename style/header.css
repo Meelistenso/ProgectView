@@ -40,3 +40,11 @@ header h1 b{
 	font-family:lato-bold;
 	padding:5px 10px;
 }
+.content{
+	width:100%;
+	margin-bottom:50px;
+}
+.incontent{
+	width:80%;
+	margin:10px auto;
+}
