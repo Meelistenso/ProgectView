@@ -1,52 +1,88 @@
 .search {
-	width:100%;
-	height:300px;
-	text-align:center;
-	color:#fff;
-	background-size:100%;
-	background-position:top;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    background-size: 100%;
+    background-position: top;
 }
-
-#sMain{background-image: url(../img/search/main.JPG) ;}
-#sMain .mask{background-image: linear-gradient(to bottom, rgba(56,148,116,0.7) 0%,rgba(56,148,116,1) 100%);}
-#sRozklad{background-image: url(../img/search/rozklad.jpg); background-position:center;}
-#sRozklad .mask{background-color: rgba(60,30,0,0.7);}
-#sRozkladsel{background-image: url(../img/search/rozkladsel.jpg); background-position:center;}
-#sRozkladsel .mask{background-color: rgba(0,0,0,0.7);}
-#sBlog{background-image: url(../img/search/blog.jpg); background-position:center;}
-#sBlog .mask{background-color: rgba(0,0,0,0.7);}
-#sRozkladteacher{background-image: url(../img/search/rozkladteacher.jpg); background-position:center;}
-#sRozkladteacher .mask{background-color: rgba(0,0,0,0.7);}
-
-.search .mask{	
-	position:relative;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	display:table;
+#sMain {
+    background-image: url(../img/search/main.JPG);
 }
-.search .mask div{
-	display:table-cell;
-	vertical-align: middle;
+#sMain .mask {
+    background-image: linear-gradient(to bottom, rgba(56, 148, 116, 0.7) 0%, rgba(56, 148, 116, 1) 100%);
 }
-.search a{
-	text-decoration:none;
-	color:#fff;
-	opacity:0.8;
+#sRozklad {
+    background-image: url(../img/search/rozklad.jpg);
+    background-position: center;
 }
-.search h1{
-	line-height:50px;
-	font-size:6ex;
-	font-family:lato-bold;
-	text-transform:uppercase;}
-	
-.search h2{
-	line-height:25px;
-	font-size:2.5ex;
-	font-family:lato-regular;
-	opacity:0.5;}
-	
-.search a:hover{
-	opacity:1;
+#sRozklad .mask {
+    background-color: rgba(60, 30, 0, 0.7);
+}
+#sRozkladsel {
+    background-image: url(../img/search/rozkladsel.jpg);
+    background-position: center;
+}
+#sRozkladsel .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#sBlog {
+    background-image: url(../img/search/blog.jpg);
+    background-position: center;
+}
+#sBlog .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#sRozkladteacher {
+    background-image: url(../img/search/rozkladteacher.jpg);
+    background-position: center;
+}
+#sRozkladteacher .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#sPronas1 {
+    background-image: url(../img/search/blog.jpg);
+    background-position: center;
+}
+#sPronas1 .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#sPronas2 {
+    background-image: url(../img/search/blog.jpg);
+    background-position: center;
+}
+#sPronas2 .mask {
+    background-image: linear-gradient(to bottom, rgba(56, 148, 116, 0.6) 0%, rgba(56, 148, 116, 1) 100%);
+}
+.search .mask {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.search .mask div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.search a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.search h1 {
+    line-height: 50px;
+    font-size: 6ex;
+    font-family: lato-bold;
+    text-transform: uppercase;
+}
+.search h2 {
+    line-height: 25px;
+    font-size: 2.5ex;
+    font-family: lato-regular;
+    opacity: 0.5;
+}
+.search a:hover {
+    opacity: 1;
 }

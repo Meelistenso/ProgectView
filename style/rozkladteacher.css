@@ -1,55 +1,139 @@
-.progressbar{background-color:#757575;color:#fff;height:100%;position:absolute;line-height:inherit; border-radius:5px;}
-.center{text-align:center; position:relative; top:-20px; right:-35%;}
-.green{background-color:#4CAF50;}
-.progress-container{margin-top:14px;width:100%;height:.8em;font-family:lato-regular; font-size:12px;position:relative;background-color:#f1f1f1;border-radius:5px;}
-
-.rating{width:80%; background-color:#1a1d22; padding:50px 10%; text-align:center;}
-.coulumn{width:45%;float:left;}
-.coulumn:nth-of-type(2){width:45%;float:right;}
-.coulumn .line{height:50px;}
-.coulumn .line p{display:block;width:25%;float:left;color:white; font-family:lato-regular;font-size:16px; text-align:left;}
-.coulumn .line div{width:70%;float:right;}
-.rating h1{color:white; font-family:lato-regular; font-size:40px; padding-top:10px; display:block;text-transform:uppercase;}
-.rating h2{color:white; opacity:0.2; font-family:lato-light; font-size:18px; letter-spacing:-2px; width:100%; height:15px; display:block; margin-bottom:50px; margin-top:10px; }
-.coment{width:100%; font-family:lato-regular; margin-top:25px; background:#CCC; border-radius:2px;}
-.coment p{padding:15px 10px; font-family:lato-regular; font-size:14px; line-height:1.5;}
-
-button.more{
-	font-family:lato-light;
-	background-color:#666;
-	border-radius:5px;
-	width:150px;
-	font-size:18px;
-	color:#EBEBEB;
-	box-shadow:0 3px #424242;
-	padding:2px 2px;
-	border:none;	
-	float:right;
-	margin-top:0;}
-button.more:hover{
-	color:#FFF;
-	cursor:pointer;
-	background-color:#999;
-
+.progressbar {
+    background-color: #757575;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    line-height: inherit;
+    border-radius: 5px;
 }
-button.more:active{
-	box-shadow:none;margin-top:3px;
-	}
-.butcont{width:100%; height:34px;margin:5px auto;float:left;}
-.rateBtn{
-	font-family:lato-light;
-	background-color:#33cc99;
-	border-radius:5px;
-	width:300px;
-	font-size:18px;
-	color:#EBEBEB;
-	box-shadow:0 3px #22bb88;
-	padding:2px 2px;
-	border:none;}
-.rateBtn:hover{
-	color:#FFF;
-	cursor:pointer;
+.center {
+    text-align: center;
+    position: relative;
+    top: -20px;
+    right: -35%;
 }
-.rateBtn:active{
-	box-shadow:none;
-	margin-top:3px;margin-bottom:-3px;}
+.green {
+    background-color: #63bc9d;
+}
+.progress-container {
+    margin-top: 14px;
+    width: 100%;
+    height: .8em;
+    font-family: lato-regular;
+    font-size: 12px;
+    position: relative;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.rating {
+    width: 80%;
+    background-color: #1a1d22;
+    padding: 50px 10%;
+    text-align: center;
+}
+.coulumn {
+    width: 45%;
+    float: left;
+}
+.coulumn:nth-of-type(2) {
+    width: 45%;
+    float: right;
+}
+.coulumn .line {
+    height: 50px;
+}
+.coulumn .line p {
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+    font-family: lato-regular;
+    font-size: 16px;
+    text-align: left;
+}
+.coulumn .line div {
+    width: 70%;
+    float: right;
+}
+.rating h1 {
+    color: white;
+    font-family: lato-regular;
+    font-size: 40px;
+    padding-top: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+.rating h2 {
+    color: white;
+    opacity: 0.2;
+    font-family: lato-light;
+    font-size: 18px;
+    letter-spacing: -2px;
+    width: 100%;
+    height: 15px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.coment {
+    width: 100%;
+    font-family: lato-regular;
+    margin-top: 25px;
+    background: #CCC;
+    border-radius: 2px;
+}
+.coment p {
+    padding: 15px 10px;
+    font-family: lato-regular;
+    font-size: 14px;
+    line-height: 1.5;
+}
+button.more {
+    font-family: lato-light;
+    background-color: #666;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+    color: #EBEBEB;
+    box-shadow: 0 3px #424242;
+    padding: 2px 2px;
+    border: none;
+    float: right;
+    margin-top: 0;
+}
+button.more:hover {
+    color: #FFF;
+    cursor: pointer;
+    background-color: #999;
+}
+button.more:active {
+    box-shadow: none;
+    margin-top: 3px;
+}
+.butcont {
+    width: 100%;
+    height: 34px;
+    margin: 5px auto;
+    float: left;
+}
+.rateBtn {
+    font-family: lato-light;
+    background-color: #68c3a2;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 18px;
+    color: #EBEBEB;
+    box-shadow: 0 3px #22bb88;
+    padding: 2px 2px;
+    border: none;
+}
+.rateBtn:hover {
+    color: #FFF;
+    background-color: #33cc99;
+    cursor: pointer;
+}
+.rateBtn:active {
+    box-shadow: none;
+    margin-top: 3px;
+    margin-bottom: -3px;
+}

@@ -1,55 +1,67 @@
-.content{
-	width:100%;
+.content {
+    width: 100%;
 }
-.incontent{
-	width:80%;
-	margin:10px auto;
+.incontent {
+    width: 80%;
+    margin: 10px auto;
 }
-.incontent .menu{
-	width:100%;
-	text-align:right;
+.incontent .menu {
+    width: 100%;
+    text-align: right;
 }
-.incontent .menu a{
-	text-decoration:none;
-	color:#333;
-	font-family:lato-bold;
-	padding:5px 10px;
+.incontent .menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: lato-bold;
+    padding: 5px 10px;
 }
-.incontent .menu a:hover{
-	text-decoration:none;
-	color:#000;
-	font-family:lato-bold;
-	padding:5px 10px;
+.incontent .menu a:hover {
+    text-decoration: none;
+    color: #000;
+    font-family: lato-bold;
+    padding: 5px 10px;
 }
-#bmenu{
-	position:relative;
-	width:100%;
-	font-family:lato-regular;
-	color:#555252;
-	margin:172px 0;
-	height:300px;
+#bmenu {
+    position: relative;
+    width: 100%;
+    font-family: lato-regular;
+    color: #555252;
+    margin: 172px 0;
+    height: 300px;
 }
-#bmenu div{
-	position:relative;
-	width:20%;
-	margin-left:6.33%;
-	float:left;
-	text-align:center;
+#bmenu div {
+    position: relative;
+    width: 20%;
+    margin-left: 6.33%;
+    float: left;
+    text-align: center;
 }
-
-#bmenu div .notsel{display:inline;}
-#bmenu div .sel{display:none;}
-#bmenu div:hover .sel{display:inline;}
-#bmenu div:hover .notsel{display:none;}
-#bmenu div:hover h3{color:#33cc99;}
-#bmenu div:hover {cursor:pointer}
-#bmenu a{
-	text-decoration:none;
-	color:#555252;
+#bmenu div .notsel {
+    display: inline;
 }
-#bmenu div:first-child{
-	margin-left:0;}
-#bmenu h3{
-	font-size:35px;
-	margin:25px 0;
+#bmenu div .sel {
+    display: none;
+}
+#bmenu div:hover .sel {
+    display: inline;
+}
+#bmenu div:hover .notsel {
+    display: none;
+}
+#bmenu div:hover h3 {
+    color: #33cc99;
+}
+#bmenu div:hover {
+    cursor: pointer
+}
+#bmenu a {
+    text-decoration: none;
+    color: #555252;
+}
+#bmenu div:first-child {
+    margin-left: 0;
+}
+#bmenu h3 {
+    font-size: 35px;
+    margin: 25px 0;
 }

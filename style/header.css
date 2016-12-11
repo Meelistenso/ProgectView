@@ -1,50 +1,52 @@
-body{background-color:#f7f7f7;}
-header{
-	height:70px;
-	margin:25px 0;
-	width:100%;
-	background-color:#FFF;
-	display:table;
+body {
+    background-color: #f7f7f7;
 }
-header h1{ 
-	display:table-cell;
-	vertical-align:middle;
-	position:relative;
-	left:10%;
-	font-size: 60px;
-	font-family: lato-light; 
-	float:left;
-	top:7px;
+header {
+    height: 70px;
+    margin: 25px 0;
+    width: 100%;
+    background-color: #FFF;
+    display: table;
 }
-header h1 b{ 
-	font-family: lato-bold; 
-	color:#33cc99;
+header h1 {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    font-size: 60px;
+    font-family: lato-light;
+    float: left;
+    top: 7px;
 }
-.menu{
-	display:table-cell;
-	vertical-align:middle;
-	text-align:right;
-	position:relative;
-	right:10%;
-	width:380px;
+header h1 b {
+    font-family: lato-bold;
+    color: #33cc99;
 }
-.menu a{
-	text-decoration:none;
-	color:#333;
-	font-family:lato-bold;
-	padding:5px 10px;
+.menu {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    position: relative;
+    right: 10%;
+    width: 380px;
 }
-.menu a:hover{
-	text-decoration:none;
-	color:#000;
-	font-family:lato-bold;
-	padding:5px 10px;
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-family: lato-bold;
+    padding: 5px 10px;
 }
-.content{
-	width:100%;
-	margin-bottom:50px;
+.menu a:hover {
+    text-decoration: none;
+    color: #000;
+    font-family: lato-bold;
+    padding: 5px 10px;
 }
-.incontent{
-	width:80%;
-	margin:10px auto;
+.content {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.incontent {
+    width: 80%;
+    margin: 10px auto;
 }
