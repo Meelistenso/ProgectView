@@ -121,8 +121,11 @@ button.more:active {
     font-size: 16px;
 }
 .bg {
-    height: 250;
+    height: 250px;
 }
+.os{
+	height:290px !important;
+	}
 .grid .bg sup {
     font-size: 8px;
     top: -5px;
@@ -188,8 +191,13 @@ button.more:active {
     float: right;
     font-size: 10px;
 }
+.item p:nth-child(6) {
+    float: left;
+    font-size: 10px;
+}
 .item p:nth-child(4),
-.item p:nth-child(5) {
+.item p:nth-child(5), 
+.item p:nth-child(6) {
     margin: 0;
     color: grey
 }
@@ -201,4 +209,8 @@ button.more:active {
 html,
 body {
     min-width: 980px;
+}
+#rest h1{color:#353d43; text-transform:uppercase; text-align:center; font-family:lato-light; font-size:52px;margin-top:50px;
+}
+#rest h2{color:#ccc; text-align:center; font-size:24px; letter-spacing:-2px;
 }
