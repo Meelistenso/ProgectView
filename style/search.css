@@ -13,6 +13,8 @@
 #sRozklad .mask{background-color: rgba(60,30,0,0.7);}
 #sRozkladsel{background-image: url(../img/search/rozkladsel.jpg); background-position:center;}
 #sRozkladsel .mask{background-color: rgba(0,0,0,0.7);}
+#sBlog{background-image: url(../img/search/blog.jpg); background-position:center;}
+#sBlog .mask{background-color: rgba(0,0,0,0.7);}
 
 .search .mask{	
 	position:relative;
