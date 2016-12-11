@@ -15,6 +15,8 @@
 #sRozkladsel .mask{background-color: rgba(0,0,0,0.7);}
 #sBlog{background-image: url(../img/search/blog.jpg); background-position:center;}
 #sBlog .mask{background-color: rgba(0,0,0,0.7);}
+#sRozkladteacher{background-image: url(../img/search/rozkladteacher.jpg); background-position:center;}
+#sRozkladteacher .mask{background-color: rgba(0,0,0,0.7);}
 
 .search .mask{	
 	position:relative;
